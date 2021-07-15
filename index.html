@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://silasmoore314.github.io/day8/day8.css">
+<title>Silas' Form</title>
+</head>
+<body>
+    <h1>My Form</h1>
+<p>Please enter all information accurately as possible</p>
+<h2>Enter information</h2>
+
+<form action="mailto:W0468755@campus.nscc.ca?subject=FORM">
+    
+    <table>
+<br>
+<tr><td><strong>Name</strong></td><td><input type="text" name="name" minlength="2" required="required"></td></tr>
+<br>
+<tr><td><strong>Age</strong></td><td><input type="number" name="YourAge" min="17"></td></tr>
+<br>
+<br>
+<tr><td><strong>City</strong></td><td><input type="text" name="CityName" minlength="2" maxlength="2"></td></tr>
+<br>
+<br>
+<tr><td>Provinces and Territories</td><td><select name="provinces">
+    <option value="Nova Scotia">Nova Scotia</option>
+    <option value="british columbia">British Columbia</option>
+    <option value="quebec">Quebec</option>
+    <option value="Saskatchewan">Saskatchewan</option>
+    <option value="Nunavut">Nunavut</option>
+    <option value="PEI">Prince Edward Island</option>
+    <option value="Manitoba">Manitoba</option>
+    <option value="NWT">Northwest Territories</option>
+    <option value="NAL">Newfoundland and Labrador</option>
+    <option value="Yukon">Yukon</option>
+    <option value="Ontario">Ontario</option>
+    <option value="Alberta">Alberta</option>
+    <option value="New Brunswick">New Brunswick</option>
+    </select></td></tr>
+<br>
+<br>
+<tr><td><strong>Phone Number</strong></td><td><input type="tel" name="PhoneNumber" pattern="[0-9]{10}"></td></tr>
+<br>
+<br>
+<tr><td>Color Picker</td><td><input type="color" name="color" id="color"></td></tr>
+<br>
+<tr><td><input type="submit" value="Send"></td><td><input type="reset" value="Reset"></td></tr>
+</table>
+</form>
+</body>
+</html>
